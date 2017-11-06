@@ -725,7 +725,35 @@ p{
 		font-size: 80%;
 	}
 } 
-/*-- //services --*/ 
+/*-- //breaking news --*/ 
+.breaking_news {
+    float: left;
+    padding:8px 15px 12px 30px;
+    background-color: #000;
+    position: relative;
+}
+.marquee {
+    width: 80%;
+    margin-left: 16%;
+    color: #777;
+    font-size: 1em;
+    padding: 8px 0;
+    color: #84754E;
+    overflow: hidden;
+}
+.marquee1 {
+    float: left;
+    margin-right: 6em;
+}
+.marquee2 {
+    float: right;
+}
+a.breaking {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration:none;
+}
 /*-- gallery --*/
 .gallry-agile-grids {
     padding: 0;
