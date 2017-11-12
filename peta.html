@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Talen Bandung | Taman Vanda</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Project Talent Bandung menggunakan Tema Taman Kota Bandung" />
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+	<link href="css/grid.css" type="text/css" rel="stylesheet" media="all">   
+	<link href="css/font-awesome.css" rel="stylesheet">	<!-- font-awesome icons -->     
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />  <!-- flexslider-CSS -->  
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen"> 
+	<!-- //Custom Theme files --> 
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>  
+	<!-- //js -->
+	<!-- web-fonts -->    
+	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet"> 
+	<!-- //web-fonts -->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
+	<!-- banner -->
+	<!-- header -->
+	<div class="header-w3layouts"> 
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Taman Bandung</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1 class="w3lslogo"><a href="index.html">TB <span>Talent Bandung</span></a></h1>
+				</div> 
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right ">
+						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+						<li><a class="page-scroll" href="#home" data-hover="Home">Home</a></li> 
+						<li><a class="page-scroll" href="#about" data-hover="About">About</a></li>
+						<li><a class="page-scroll" href="#features" data-hover="Features">Features</a></li>
+						<li><a class="page-scroll" href="#gallery" data-hover="Gallery">Gallery</a></li>
+						<li><a class="page-scroll" href="#stats" data-hover="Stats">Stats</a></li>
+						<li><a class="page-scroll" href="#blog" data-hover="Blog">Blog</a></li>
+						<li><a class="page-scroll" href="#contact" data-hover="Kontak">Kontak</a></li>
+						<li><a class="" href="#" data-hover="">Peta</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>  
+
+		<!-- //header -->
+		<!-- banner-text -->
+		<iframe src="https://www.google.com/maps/d/embed?mid=1Fs2WG1-iPtpAsRk7rwsxk_ghEu0&hl=en_US" width="1300" height="800"></iframe>
+			<!-- about -->
+
+			<!-- //modal --> 
+			<!-- timer scripts --> 
+			<script type="text/javascript" src=" js/moment.js"></script>
+			<script type="text/javascript" src=" js/moment-timezone-with-data.js"></script>
+			<script type="text/javascript" src="js/timer.js"></script>
+			<!-- //timer scripts -->
+			<!-- start-smooth-scrolling --> 
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>	
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					});
+				});
+			</script>
+			<!-- //end-smooth-scrolling -->	 
+			<!-- smooth-scrolling-of-move-up -->
+			<script type="text/javascript">
+				$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->   
+	<!-- Scrolling Nav JavaScript --> 
+	<script src="js/scrolling-nav.js"></script>  
+	<!-- //fixed-scroll-nav-js -->  
+	<!-- bth hover effect --> 
+	<script>
+		$(function() {
+			$('.btn-6')
+			.on('mouseenter', function(e) {
+				var parentOffset = $(this).offset(),
+				relX = e.pageX - parentOffset.left,
+				relY = e.pageY - parentOffset.top;
+				$(this).find('span').css({
+					top: relY,
+					left: relX
+				})
+			})
+			.on('mouseout', function(e) {
+				var parentOffset = $(this).offset(),
+				relX = e.pageX - parentOffset.left,
+				relY = e.pageY - parentOffset.top;
+				$(this).find('.btn-6 span').css({
+					top: relY,
+					left: relX
+				})
+			}); 
+		});
+	</script>	
+	<!-- //bth hover effect --> 
+	<!-- jarallax -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<!-- //jarallax -->   
+	<!-- FlexSlider --> 
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function(slider){
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script>
+	<!-- //End-FlexSlider -->  
+	<!-- pop-up-script -->
+	<script src="js/jquery.chocolat.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('.view-seventh a').Chocolat();
+		});
+	</script>
+	<!-- //pop-up-script -->  
+	<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/bootstrap.js"></script>
+	</body>
+	</html>
